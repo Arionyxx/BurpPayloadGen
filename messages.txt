@@ -1,0 +1,25 @@
+Your website has been exposed to vulnerability please contact your IT department to fix it.
+Your API key is exposed in the POST and GET request please fix it.
+Critical security vulnerability detected in your application.
+SQL injection vulnerability found. Immediate action required.
+Cross-Site Scripting (XSS) vulnerability detected on your website.
+Your database credentials are exposed in the source code.
+Insecure direct object reference found. User data at risk.
+Authentication bypass vulnerability discovered.
+Your session tokens are vulnerable to hijacking.
+Weak password policy detected. Strengthen immediately.
+File upload vulnerability allows arbitrary code execution.
+Server configuration exposes sensitive information.
+Your application is vulnerable to CSRF attacks.
+Outdated software components with known vulnerabilities detected.
+Insufficient access controls allow privilege escalation.
+Your API endpoints lack proper rate limiting.
+Sensitive data transmitted without encryption.
+Directory traversal vulnerability allows unauthorized file access.
+Command injection vulnerability found in user input.
+Your cookies are not properly secured with HttpOnly and Secure flags.
+XML External Entity (XXE) vulnerability detected.
+Server-Side Request Forgery (SSRF) vulnerability found.
+Insecure deserialization vulnerability allows remote code execution.
+Missing security headers expose your site to attacks.
+Your application is vulnerable to clickjacking attacks.

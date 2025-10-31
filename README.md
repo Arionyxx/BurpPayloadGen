@@ -22,6 +22,12 @@ Generate security warning messages.
 - Professional security notifications
 - Use case: Testing input validation, message handling, XSS testing, etc.
 
+### 4. Event Type Generator
+Generate custom vulnerability-themed event type payloads.
+- Custom security event names (vulnerabilityAlert, vulnFound, securityBreach, dataLeak, etc.)
+- 10 unique vulnerability-themed event types for security testing
+- Use case: Testing custom event handlers, XSS via event attributes, JavaScript injection, security event testing, etc.
+
 ## Requirements
 
 - Python 3.x
@@ -38,7 +44,8 @@ python burp_payload_generator.py
    - Press `1` for Number Generator
    - Press `2` for Username Generator
    - Press `3` for Message Generator
-   - Press `4` to Exit
+   - Press `4` for Event Type Generator
+   - Press `5` to Exit
 
 3. Follow the prompts to generate your payload files
 
@@ -70,6 +77,13 @@ Enter output filename (default: messages.txt): messages.txt
 ✅ Generated 25 messages in 'messages.txt'
 ```
 
+### Event Type Generator
+```
+Enter output filename (default: event_types.txt): event_types.txt
+
+✅ Generated 10 event types in 'event_types.txt'
+```
+
 ## Output Files
 
 All generated files are plain text files with one entry per line, perfect for loading into Burp Suite Intruder:
@@ -77,6 +91,7 @@ All generated files are plain text files with one entry per line, perfect for lo
 - `numbers.txt` - Sequential numbers (one per line)
 - `usernames.txt` - Random usernames (one per line)
 - `messages.txt` - Security warning messages (one per line)
+- `event_types.txt` - Event type strings (one per line)
 
 ## How to Use in Burp Suite
 
@@ -93,5 +108,6 @@ You can easily modify the script to add:
 - More username templates in the `base_names` list
 - More suffixes in the `suffixes` list
 - More security messages in the `messages` list
+- More event types in the `event_types` list
 
-Enjoy testing! 🔥"# BurpPayloadGen" 
+Enjoy testing! 🔥

@@ -1,0 +1,10 @@
+vulnerabilityAlert
+vulnFound
+securityBreach
+dataLeak
+unauthorized
+exploitDetected
+xssTriggered
+sqlInjection
+adminAccess
+hackAttempt
